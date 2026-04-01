@@ -44,7 +44,7 @@ def get_albums():
 @app.route('/')
 def home():
     return jsonify({
-        "message": "Flask API is successfully completed",
+        "message": "Flask API is completed",
         "available_routes": ["/posts", "/comments", "/albums"]
     })
 
